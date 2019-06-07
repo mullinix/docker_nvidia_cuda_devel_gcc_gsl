@@ -9,7 +9,7 @@ RUN apt-get install -y --no-install-recommends \
 
 # install some packages for development (optional)
 RUN apt-get install -y --no-install-recommends \
-    vim
+    vim git
 
 # cleanup install cache
 RUN rm -rf /var/lib/apt/lists/*
